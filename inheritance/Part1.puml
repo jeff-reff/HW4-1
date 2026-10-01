@@ -16,7 +16,7 @@ abstract class Employee{
 
 }
 
-class SalariedEmployee extends Employee{
+class SalariedEmployee{
     - weeklySalary: int
 
     + getWeeklySalary(): int
