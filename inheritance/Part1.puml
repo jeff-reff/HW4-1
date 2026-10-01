@@ -58,5 +58,14 @@ class Driver {
     + main(args: String[]): void
 }
 
+Employee <|-- SalariedEmployee
+Employee <|-- BaseEmployee
+Employee <|-- HourlyEmployee
+Employee <|-- ComissionEmployee
+
+Driver ..> SalariedEmployee
+Driver ..> BaseEmployee
+Driver ..> HourlyEmployee
+Driver ..> ComissionEmployee
 
 @enduml
