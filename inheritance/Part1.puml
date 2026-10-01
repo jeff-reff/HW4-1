@@ -46,7 +46,7 @@ class ComissionEmployee{
     + toString(): String
 }
 
-class BaseEmployee extends Employee {
+class BaseEmployee {
     - baseSalary: int
 
     + getBaseSalary(): int
