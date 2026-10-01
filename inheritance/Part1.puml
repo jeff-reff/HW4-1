@@ -24,7 +24,7 @@ class SalariedEmployee{
     + toString(): String
 }
 
-class HourlyEmployee extends Employee{
+class HourlyEmployee{
     - wage: int
     - numberOfHoursWorked: int
 
