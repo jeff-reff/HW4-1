@@ -35,7 +35,7 @@ class HourlyEmployee{
     + toString(): String
 }
 
-class ComissionEmployee extends Employee {
+class ComissionEmployee{
     - commisionRate: int
     - grossSales: int
 
