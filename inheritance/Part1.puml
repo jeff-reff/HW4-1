@@ -54,6 +54,9 @@ class BaseEmployee extends Employee {
     + toString(): String
 }
 
+class Driver {
+    + main(args: String[]): void
+}
 
 
 @enduml
