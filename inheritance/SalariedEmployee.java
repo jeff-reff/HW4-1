@@ -1,5 +1,5 @@
 public class SalariedEmployee extends Employee{
-    int weeklySalary;
+    private int weeklySalary;
 
     public int getWeeklySalary(){
         return weeklySalary;
