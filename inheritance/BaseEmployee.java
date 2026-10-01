@@ -1,5 +1,5 @@
 public class BaseEmployee extends Employee{
-    int baseSalary;
+    private int baseSalary;
 
     public int getBaseSalary(){
         return baseSalary;
