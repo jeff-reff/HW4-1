@@ -1,6 +1,6 @@
 public class ComissionEmployee extends Employee{
-    int commissionRate;
-    int grossSales;
+    private int commissionRate;
+    private int grossSales;
 
     public int getComissionRate(){
         return commissionRate;
