@@ -1,6 +1,6 @@
 public class HourlyEmployee extends Employee{
-    int wage;
-    int numberOfHoursWorked;
+    private int wage;
+    private int numberOfHoursWorked;
 
     public int getWage(){
         return wage;
