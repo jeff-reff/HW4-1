@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+object "c1Instructor: Instructor" as instructor1{
+    firstName = "Nima"
+    lastName = "Davarpanah"
+    officeNum = "3-2636"
+}
+
+object "c1Textbook: Textbook" as textbook1{
+    title = "Clean Code"
+    author = "Robert Cecil Martin"
+    publisher = "Pearson"
+}
+
+object "c1: Course" as course1 {
+    name = "CS3560"
+    instructor = c1Instructor
+    textbook = c1Textbook
+}
+
+course1 o-- textbook1
+course1 o-- instructor1
+@enduml
